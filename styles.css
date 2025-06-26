@@ -1,0 +1,76 @@
+/* Center the post and set background */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Main post container */
+.post {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Post header */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Profile info on the left */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-info {
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+/* Menu dots */
+.menu i {
+  font-size: 18px;
+}
+
+/* Main post image */
+.post-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Icon row under the image */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.post-actions i {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.actions-right i {
+  margin-right: 0;
+}
+
+/* Likes and caption */
+.likes, .caption {
+  padding: 0 10px 10px 10px;
+  font-size: 14px;
+}
+
+.caption {
+  margin-top: 5px;
+}
